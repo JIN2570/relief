@@ -1,6 +1,6 @@
 body {
   font-family: 'Nanum Gothic', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 1.4;
   color: #333;
@@ -90,12 +90,27 @@ header .hd-top .top-menu {
   background-color: #f9f9f9;
   height: 36px;
   border-bottom: 1px solid #ececec;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
+header .hd-top .top-menu li {
+  padding: 0px 5px;
+  font-size: 12px;
+}
+
 .item_name {
   display:block;
+}
+
+.lang {
+  display: flex;
 }
 
 .item_name:active,
 .item_name:hover {
   color: #ef4223;
+}
+.main-menu {
+  display: flex;
 }
