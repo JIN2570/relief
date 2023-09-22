@@ -13,10 +13,18 @@ a {
 
 img {
   display: block;
+  border: 0;
+}
+
+.logo {
+  display: block;
+  position:absolute;
+
 }
 
 li {
   list-style: none;
+  
 }
 .inner {
   max-width: 1100px;
@@ -25,4 +33,47 @@ li {
 }
 .hd-top {
   background-color: red;
+}
+.btn-spon {
+  display: block;
+    width: 190px;
+    height: 76px;
+    text-align: center;
+    line-height: 76px;
+    background: #ef4223;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 700;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    z-index: 10;
+    cursor: pointer;
+}
+.btn-spon:hover {
+  background-color: crimson;
+}
+.btn-search {
+  display: block;
+  width: 76px;
+  height: 76px;
+  text-align: center;
+  line-height: 76px;
+  background: url(../images/search.png) center no-repeat;
+  border-left: 1px solid #e7e7e7;
+  position: absolute;
+  top: 0px;
+  right: 190px;
+  z-index: 11;
+}
+.btn-search:hover {
+  background: url(../images/search2.png) center no-repeat;
+}
+header {
+  background-color: #f6f5f0;
+  border-bottom: px solid #c8c8c8;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 14;
 }
