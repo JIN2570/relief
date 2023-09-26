@@ -187,14 +187,12 @@ header .top-menu li {
   left: 50%;
 }
 .notice {
-  /* background: #424953; */
   height: 30px;
   padding: 10px 0;
   overflow: hidden;
   
 }
 .notice .inner {
-  /* background-color: red; */
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
@@ -243,6 +241,11 @@ header .top-menu li {
   font-weight: 700;
   font-size: 36px;
   color: #fff;
+}
+
+.sub_title_box {
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .title_panel {
@@ -391,6 +394,65 @@ header .top-menu li {
 .text_box {
   display: block;
   position: absolute;
+  width: 100%;
   top: 80px;
-  right: 0px;
+  right: 400px;
+}
+.cate-l {
+  display: block;
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 10px;
+  font-weight: 700;
+}
+.text-cate {
+  display: block;
+  width: 380px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  color: #3d3d3d;
+  font-weight: 600;
+}
+.text-sub {
+  display: block;
+  font-size: 17px;
+  color: #666;
+  margin-bottom: 30px;
+  width: 500px;
+  font-weight: 600;
+}
+
+.btn_blackline {
+  color: #333;
+  border: 1px solid #333;
+}
+
+.btn {
+  padding: 0 20px;
+  text-align: center;
+  display: inline-block;
+  height: 36px;
+  line-height: 32px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+@media screen and (min-width: 1201px) {
+.btn_blackline:hover, .btn_iconline:hover {
+    color: #ef4223;
+    border-color: #ef4223;
+}
+}
+.btn__wrap {
+  padding: 0 20px;
+  text-align: center;
+  display: inline-block;
+  height: 36px;
+  line-height: 32px;
+  font-size: 14px;
+  cursor: pointer;
+  font-weight: 600;
+  color: #666;
+  border: 1px solid #ccc;
 }
