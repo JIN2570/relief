@@ -286,6 +286,10 @@ header .top-menu li {
   
 }
 
+.panel_slider {
+  padding: 100px 0;
+}
+
 .box-area {
   display: flex;
   justify-content: space-between;
@@ -321,7 +325,7 @@ header .top-menu li {
   position: relative;
 }
 
-
+.
 .text-box-center {
   font-size: 14px;
   font-weight: 600;
@@ -438,12 +442,7 @@ header .top-menu li {
   font-weight: 600;
 }
 
-@media screen and (min-width: 1201px) {
-.btn_blackline:hover, .btn_iconline:hover {
-    color: #ef4223;
-    border-color: #ef4223;
-}
-}
+
 .btn__wrap {
   padding: 0 20px;
   text-align: center;
@@ -455,4 +454,73 @@ header .top-menu li {
   font-weight: 600;
   color: #666;
   border: 1px solid #ccc;
+}
+
+.main-bbs {
+  padding-bottom: 100px;
+}
+
+.main-bbs .inner {
+  display: flex;
+  justify-content: center;
+  border: 1px solid #ececec;
+  padding: 10px;
+}
+
+
+.main-bbs .inner .bbs-line {
+  width: 1px;
+  height: 220px;
+  background: #ececec;
+}
+.main-bbs .inner .btn_menu {
+  color: #333;
+  font-size: 16px;
+  font-weight: 600;
+  /* border-top: 1px solid #ececec; */
+}
+.main-bbs .inner .bbs-right {
+  margin-right: 50px;
+}
+.main-bbs .inner .bbs-left {
+  margin-left: 50px;
+}
+
+.bbs_title_font {
+  font-size: 22px;
+  display: flex;
+  justify-content: space-between;
+}
+.bbs_title_font .btn {
+  font-size: 16px;
+  color: #333;
+}
+
+.main-bbs .inner ul li {
+  display: flex;
+  padding: 10px 0;
+  justify-content: space-between;
+  border-top: 1px solid #ececec;
+}
+.main-bbs .inner ul li a {
+display: block;
+}
+
+.main-bbs .inner ul li a span {
+  /* padding: 10px 0; */
+  /* display: block; */
+}
+.main-bbs .inner ul li span.date{
+  display: block;
+  margin-left: 50px;
+  color: #999;
+  text-align: right;
+  width: 12%;
+  font-weight: 600;
+}
+@media screen and (min-width: 1201px) {
+.btn_blackline:hover, .btn_iconline:hover {
+    color: #ef4223;
+    border-color: #ef4223;
+  }
 }
